@@ -1,9 +1,9 @@
 import UIKit
 
 let miEmoji = "🐟"
-let res = Double(miEmoji)
+let unicode = miEmoji.unicodeScalars.first!.value
 
-print (res)
+print (unicode)
 
 
 
